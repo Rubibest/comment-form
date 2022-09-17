@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Vitalii Krushelnytskyi">
+    <meta name="description" content="learn js">
+    <meta name="keywords" content="test,html,css,js">
+    <title>JavaScript</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <main>
+    <h2>Comments form</h2>
+
+    <form method="post">
+      <labe class="label" for="name">Name</labe>
+      <input type="text" id="name" placeholder="Enter your name"><br>
+      <labe class="label" for="email">Email</labe>
+      <input type="email" id="email" placeholder="Enter your email"><br>
+      <labe class="label" for="telephone">Telephone</labe>
+      <input type="tel" id="telephone" placeholder="Enter your telephone"><br>
+      <labe class="label" for="message">Message</labe>
+      <textarea name="message" id="message" placeholder="Enter your message"></textarea>
+      <div id="messageErrorUser"></div>
+      <button type="button" class="btn" onclick="addComments()" id="send">Send</button>
+    </form>
+    <div id="comments">
+      <h3>Comments</h3>
+      <div id="allComments"></div>
+    </div>
+  </main>
+
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+body {
+  background: #fafafa;
+}
+
+main {
+  background-color: #fafafa;
+  border: 1px solid silver;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  font-size: 1.1em;
+  color: #3e3e3e;
+  padding: 3%;
+  float: left;
+  width: 50%;
+  margin: 20px 22%;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 1.4em;
+  font-family: 'Roboto Slab', serif;
+  border-bottom: 2px solid #4786a3;
+  display: inline-block;
+  color: #4786a3;
+  padding: 0 5px;
+}
+
+form .label {
+  font-size: 1.2em;
+  margin-left: 10px;
+  color: #737272;
+  margin-bottom: 5px;
+  display: block;
+  font-family: 'Roboto Slab', serif;
+  cursor: text;
+}
+
+form input, form textarea {
+  margin-bottom: 10px;
+  padding: 10px 2%;
+  border-radius: 7px;
+  border: 2px solid silver;
+  font-size: .9em;
+  width: 270px;
+  color: #4a4a4a;
+}
+
+form textarea {
+  resize: vertical;
+  max-height: 500px;
+  min-height: 200px;
+}
+
+#messageErrorUser {
+  color: #bf5858;
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.1em;
+  display: none;
+}
+
+.btn {
+  border: 2px solid #9c3e30;
+  font-size: 1em;
+  margin-top: 20px;
+  background: #ec6550;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  display: block;
+  padding: 7px 12px;
+  font-family: 'Roboto Slab', serif;
+}
+
+.btn:hover {
+  border: 2px solid #88372b;
+  background: #ba5242;
+}
+
+#comments {
+  width: 96%;
+  border-top: 2px solid #505050;
+  float: left;
+  margin-top: 20px;
+  padding: 2%;
+}
+
+.comment {
+  background: #e8e8e8;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
